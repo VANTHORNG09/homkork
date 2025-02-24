@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        
+    }
+    body{
+      
+        background-color: rgb(238, 239, 240);
+        /* margin:0px 1px 1px 45%; */
+         justify-content: center;
+        align-items: center;
+        min-height: 70vh;
+        display:flex;
+     
+  
+        
+    }
+ .wrapper{
+    /* background-color: deeppink; */
+          width: 300px;
+            border-radius: 15px;
+            height: 0px 1px 100px;
+                box-shadow: 0px 1px 1px 1px;
+
+       
+    
+         
+ }
+ .login{
+        /* justify-content: center;
+        align-items: center;
+        /* min-height: 100vh; */
+        /* display:flex;  */
+         text-align:center;
+         /* width:1px ;
+         margin: 0px 20px; */
+         /* flex:content ; */
+         /* background-color: #daae51; */
+ }
+ .tabs {
+            display: flex;
+            border-radius: 5px;
+            overflow: hidden;
+            margin-bottom: 20px;
+            text-align: center;
+            justify-content: center;
+            display: flex ;
+
+           
+            
+        }
+
+        .tab {
+            flex: 1;
+            padding: 10px;
+            /* cursor: pointer; */
+            /* font-weight: bold; */
+            background: linear-gradient(to right, #d5336991, #daae51);
+            border: none;
+            outline: none;
+            border-radius: 20px;
+          
+        }
+
+        .tab.active {
+            background: linear-gradient(to right, #d53369, #daae51);
+            color: white;
+          
+        }
+    h2{
+         text-align:center;
+    }
+    .dd{
+         text-align:center;
+    
+    }
+    .log{
+        text-align: center;
+        background: linear-gradient(to right,gold, pink,rgba(0, 128, 0, 0.425));
+           padding:0px ;
+          border-radius: 15px;
+    }
+    .Not{
+         /* background-color: rgba(0, 0, 255, 0.182); */
+        color:#070404;
+        text-align: center;
+      
+    }
+    input {
+            width: 90%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+  
+
+</style>
+<body>
+    <div class="wrapper">
+         <div>
+             <h2>Login Form</h2>
+      <div class="tabs">
+             <button class="tab">Login</button>
+             <button class="tab active">signup</button>
+      </div>
+    </div>
+       <form action="form" > 
+        
+        <div class="login"> 
+            <table for="Gmail Address"></table>
+            <input type="text" placeholder="Gmail Address"></div>
+        <div class="login">
+            <table for="password"></table>
+            <input type="password" placeholder="passwoed"></div>
+         <div class="dd">
+
+       <label for="Forget password">Forget password</label> 
+         </div>
+         <div class="log">
+          <h4>login</h4>
+            
+         </div>
+        <div class="Not">
+      <label for="???">Not a nember? </label>
+      <a href="loing.html">Singup now</a>
+        
+        </div>
+    </form>
+    </div>
+</body>
+</html>
